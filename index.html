@@ -44,6 +44,7 @@
                 hexColor += hex[getRandomNumber()]
                 div.textContent = na[getRandomNa()]
                 div.style.backgroundColor = hexColor;
+                 document.body.style.backgroundColor = hexColor;
             }
             function getRandomNumber() {
                 return Math.floor(Math.random() * hex.length)
